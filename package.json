@@ -1,0 +1,63 @@
+{
+  "name": "sxrb-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "better-scroll": "^1.15.0",
+    "callapp-lib": "^2.1.5",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.24.0",
+    "qs": "^6.6.0",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-unit-mocha": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "es6-promise": "^4.2.6",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-px-to-viewport": "^1.1.0",
+    "sass-loader": "^7.1.0",
+    "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-px-to-viewport": {
+        "viewportWidth": 750,
+        "unitPrecision": 3,
+        "minPixelValue": 1,
+        "selectorBlackList": [
+          ".mint-toast-text"
+        ]
+      }
+    }
+  }
+}

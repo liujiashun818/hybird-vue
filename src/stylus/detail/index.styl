@@ -1,0 +1,229 @@
+.wrapper
+        position relative
+        font-family 'FZBIAOYSK', 'PingFang SC', '微软雅黑', sans-serif
+        .top-pic
+            width 750px
+            max-height 422px
+            overflow hidden
+            img
+                display block
+        img, video, audio
+            width 100%
+        audio 
+            margin-top 40px
+        .video-wrap
+            position fixed
+            width 100%
+            z-index 1000
+            height 422px
+            background #000
+            overflow hidden
+            video
+                height 422px
+        .video-mask
+            position fixed
+            top 0
+            width 100%
+            z-index 1000
+            height 422px
+            background #000
+        .box-block
+            height 422px
+        .essay
+            margin-top 64px
+            padding 0 30px
+            h1
+                font-weight bold
+                font-size 40px
+                color #222
+                line-height 50px
+                word-break break-all
+            h3
+                line-height 40px
+                margin 0 0 20px
+                font-size 28px
+                color #686868
+                word-break break-all
+                font-weight normal
+            .desc
+                color #686868
+                font-size 28px
+                line-height 40px
+                margin 24px 0 0
+                font-weight normal
+                word-break break-all
+            .date-wrap
+                margin-top 44px
+                line-height: 38px;
+                .date
+                    font-size 24px
+                    color #AFAFAF
+                    flex 1
+                .recite
+                    margin-right 20px
+                    width 70px
+                    height 70px
+                    background url("~_images/recite.png") no-repeat center
+                    background-size 90%
+            .gov-info 
+                margin-top 44px
+                height 84px
+                .avatar 
+                    width 80px
+                    height 80px
+                    background #FDE0E2 url("~_images/gov_avatar.png") no-repeat 0 0/100% 100%
+                    border-radius 999px
+                .info 
+                    margin-left 18px
+                    h5 
+                        color #000 
+                        font-size 28px
+                        line-height 50px
+                    .date
+                        font-size 24px
+                        color #AFAFAF
+                .follow-btn
+                    width 160px
+                    height 70px
+                    border-radius 35px
+                    background #F87650
+                    text-align center
+                    color #fff
+                    font-size 28px
+                    line-height 70px
+                .no 
+                    background #ccc
+        .images
+            margin-top 100px
+            li
+                margin 20px 0
+                p
+                  padding 0 20px
+                  text-align center
+                  font-size 28px
+                  color #858585
+        .content
+            margin 40px 0
+            text-align justify
+            line-height 60px
+            word-break break-word
+            button
+                position absolute
+                left 0
+                bottom 5px
+                width 140px
+                height 100px
+                background rgba(206, 83, 83, 1)
+                z-index 998
+            button:after
+                content ''
+                display block
+                width 0
+                height 0
+                border-width 14px 0 14px 18px
+                border-style solid
+                border-color transparent transparent transparent #fff
+                position absolute
+                top 50%
+                left 50%
+                margin -12px 0 0 -8px
+        .comment
+            padding 30px
+            .title
+                span
+                    margin-left 20px
+                    color #ED1F2E
+                    font-size 50px
+                    font-weight bold
+                i
+                    display inline-block
+                    width 52px
+                    height 42px
+                    background url("~_images/icon_Quotes.png") no-repeat 50%/100%
+            ul
+                margin-top 88px
+                li
+                    header
+                        display flex
+                        .avatar
+                            width 70px
+                            height 70px
+                            border-radius 999px
+                            background no-repeat 0 0/100% 100%
+                        .info-area
+                            max-width 460px
+                            height 70px
+                            text-indent 20px
+                            .name
+                                color #888888
+                                font-size 28px
+                                line-height 40px
+                            .time
+                                color #AFAFAF
+                                font-size 24px
+                                line-height 34px
+                        .like
+                            height 70px
+                            i
+                                width 48px
+                                height 48px
+                                background no-repeat 50%/100%
+                            .good
+                                background-image url("~_images/btn_good.png")
+                            .active-good
+                                background-image url("~_images/btn_gooded.png")
+                            span
+                                margin-left 8px
+                                font-size 22px
+                            .num
+                                color #AFAFAF
+                            .active-num
+                                color #C82B2B
+                    section
+                        margin-top 16px
+                        p
+                            overflow hidden
+                            word-break break-word
+                            line-height 64px
+                            font-size 32px
+                            color #000
+                li:not(:first-of-type)
+                    margin-top 94px
+
+            .check-all
+                margin-top 98px
+                padding-bottom 90px
+                color #ED1F2E
+                font-size 30px
+                text-align center
+                font-weight bold
+                i
+                    display inline-block
+                    width 16px
+                    height 22px
+                    background url("~_images/Line@2x.png") no-repeat 50%/100%
+            .origin
+                margin-top 14px
+                padding 24px 22px
+                background #F6F6F6
+                .origin-info
+                    .origin-name
+                        font-weight bold
+                        font-size 28px
+                        color #858585
+                    .origin-time
+                        color #AFAFAF
+                        font-size 24px
+                .origin-content
+                    margin-top 14px
+                    font-size 30px
+                    color #9B9B9B
+                    line-height 42px
+                    text-align justify
+                    overflow hidden
+                    word-break break-word
+            .no-comment
+                margin 100px auto 
+                width 470px
+                height 350px
+                background url("~_images/no-comment.png") no-repeat 50%/100%

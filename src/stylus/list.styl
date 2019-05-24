@@ -1,0 +1,176 @@
+/*
+    列表公共样式
+*/
+section 
+    margin-top 64px
+    header
+        margin-bottom 98px  
+        padding 0 30px
+        color #ED1F2E 
+        span 
+            font bold 56px Futura
+        i 
+            width 48px
+            height 48px
+            background url("~_images/more.png") no-repeat 50%/100%
+        .name
+            color #000
+            margin-left 20px
+            font bold 48px PingFang
+    ul 
+        padding 0 30px
+        li 
+            min-height 200px
+            margin-bottom 80px
+            h3 
+                font-size 48px
+                line-height 64px
+                margin-bottom 20px
+            h4 
+                margin-top 20px
+                font-size 36px
+                line-height 50px  
+            .pic-wrap
+                position relative
+                width 690px
+                max-height 390px
+                overflow hidden
+                img
+                    width 100%
+                    display block
+                .video-btn 
+                    position absolute
+                    bottom 0
+                    left 0
+                    width 80px
+                    height 70px
+                    background url("~_images/btn_video@2x.png") no-repeat 50%/100%
+            .audio
+                position relative
+                margin-top 20px
+                width 690px
+                height 80px
+                background #ED1F2E
+                box-shadow 0px 4px 20px 0px rgba(255,151,158,1)
+                border-radius 10px
+                &:after 
+                    content ''
+                    position absolute
+                    top 50%
+                    right 36px
+                    margin-top -15px
+                    width 30px
+                    height 30px
+                    background url("~_images/audio-pic.png") no-repeat 50%/100%
+            .description 
+                margin-top 12px
+                font-size 28px
+                line-height 40px
+                color #858585
+            .images-list 
+                position relative
+                width -webkit-min-content
+                width -moz-min-content
+                width fit-content
+                white-space nowrap
+                .images 
+                    flex 1
+                    min-width 200px
+                    height 400px
+                    background #ccc no-repeat 0 0/100% 100%
+                    margin-right 2px
+                 .images-label 
+                    position absolute
+                    left 608px
+                    top -20px
+                    width 82px
+                    height 72px
+                    background url("~_images/bubble-red.png") no-repeat 50%/100%
+                    font-size 24px
+                    color #fff
+                    text-align center
+                    line-height 60px
+            .three-list 
+                margin-top 20px
+                .img 
+                    width 228px
+                    height 228px
+                    background #ccc no-repeat 0 0/100% 100%
+                    margin-right 2px
+            .three-info 
+                margin-top 20px
+            .tag 
+                color #ED1F2E
+                font-size 28px
+                font-weight bold
+                margin-right 14px
+            .comment 
+                color #AFAFAF
+                font-size 24px
+            .thumbnail 
+                position relative
+                margin-right 20px
+                width 200px
+                height 200px
+                background #afafaf no-repeat 0 0/100% 100%
+                i  
+                    position absolute
+                    bottom 0
+                    left 0
+                    width 80px
+                    height 70px
+                    display block
+                    z-index 10
+                .audio-icon
+                    background url("~_images/btn_audio@2x.png") no-repeat 50%/100%
+                .image-icon
+                    background url("~_images/btn_pic@2x.png") no-repeat 50%/100%
+                .video-icon
+                    background rgba(0, 0, 0,.7)
+                    &:after 
+                        content ''
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        border-width: 10px 0 10px 16px;
+                        border-style: solid;
+                        border-color: transparent transparent transparent #fff
+                        position: absolute;
+                        top 50%
+                        left 50%
+                        margin -8px 0 0 -6px
+            .info 
+                position relative
+                flex 1
+                height 200px
+                .type 
+                    max-width 446px
+                    margin-bottom 6px
+                    color #ED1F2E
+                    font-size 28px
+                    font-weight bold
+                    line-height 40px
+                .title
+                    height 100px
+                    font-size 36px
+                    line-height 50px
+                    font-weight bold
+                    word-break break-all
+                .date 
+                    position absolute
+                    bottom 0
+                    width 100%
+                    color #AFAFAF
+                    font-size 24px
+                    line-height 34px
+            time 
+                color #AFAFAF
+                font-size 24px
+    footer 
+        margin-top 100px
+        height 80px
+        line-height 80px
+        background #F6F6F6
+        text-align center
+        color #222222
+        font-size 28px
